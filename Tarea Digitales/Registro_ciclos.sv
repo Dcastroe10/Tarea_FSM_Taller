@@ -8,8 +8,8 @@ module Registro_ciclos (
   always_ff @(posedge clk or posedge reset) begin
     if (reset) begin
       data_output <= 8'b0; 
-    end else if (enable) begin
-      data_output <= data_input;
+    end else begin
+      data_output <= data_input + 1;
     end
   end
 

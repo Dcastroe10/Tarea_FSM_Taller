@@ -1,10 +1,11 @@
-module FSM(input M, clk, rst, output [7:0]msj);
+module FSM(input M, clk, rst, output logic [7:0] msj_f);
 
 logic [1:0] state, next_state;
 logic t0 = 0;
 logic [7:0] contador = 0;
 logic [7:0] mantenimientos = 0;
 logic [7:0] msj = 11111111;
+
 
 
 //Instancias
@@ -17,10 +18,11 @@ logic [7:0] msj = 11111111;
   );
   
    Registro_mate mante_inst (
-    .data_input(contador), 
+    .data_input(mantenimientos), 
     .clk(clk),                  
-    .reset(rst),                             
-    .data_output(a)              
+    .reset(rst),
+	 .enable(M),	 
+    .data_output(mantenimientos)              
   );
   
   
@@ -33,23 +35,22 @@ logic [7:0] msj = 11111111;
   
   
   comparador inst_comparador (
-    .entrada(entrada_top),
-    .igual(igual_top)
+    .entrada(contador),
+    .igual(t0)
   );
+  
+  Mux mux_inst (
+        .A(mantenimientos),        // Conecta la entrada A
+        .B(8'b11111111),        // Conecta la entrada B
+        .S(t0),      // Conecta la entrada de selección S
+        .Y(msj)          // Conecta la salida Y
+    );
   
 //actual state logic
 always_ff @(posedge clk or posedge rst)
 	if (rst) state = 2'b00;
 	else begin 
 		state = next_state;
-		if (state == 2'b00 && M) begin
-			mantenimientos <= mantenimientos + 1; 
-		end
-		if(t0 == 1) begin
-			msj = 8'b11111111;
-		end else begin
-				msj = mantenimientos;
-			end
 		end
 			
 
@@ -64,6 +65,8 @@ always_comb
 	endcase
 
 //output logic
+
+assign msj_f = msj;
 
 //assign a = (state == 2'b10);
 

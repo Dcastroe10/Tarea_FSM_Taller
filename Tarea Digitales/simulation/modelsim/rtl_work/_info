@@ -8,55 +8,55 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/simulation/modelsim
+Z0 dD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/simulation/modelsim
 vcomparador
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1695687601
+Z2 !s110 1695688145
 !i10b 1
-!s100 U7`?BzX3W:BIHL^JGoI;Q2
+!s100 Qg7m_FbRc5>mmj`G5lm^b3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I?NS2ZlcPFo_TK7UA7B7z=2
+ISdGIJYUc5iQ3Whd73G^4Y3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1695687402
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv
+w1695688090
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv
 !i122 4
 L0 1 9
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1695687601.000000
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv|
+Z6 !s108 1695688145.000000
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work {+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales}
+Z8 !s92 -sv -work work {+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales}
 Z9 tCvgOpt 0
 vFSM
 R1
-R2
+Z10 !s110 1695688144
 !i10b 1
 !s100 D6^^0h_m1I9<O8nDiNNN;1
 R3
-I>KnDZG]40U20z<?nlDMTK0
+I@4]za2K9if3AeWH^2`lnN3
 R4
 S1
 R0
 w1695682611
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv
 !i122 0
 L0 1 74
 R5
 r1
 !s85 0
 31
-R6
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv|
+Z11 !s108 1695688144.000000
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv|
 !i113 1
 R7
 R8
@@ -64,26 +64,26 @@ R9
 n@f@s@m
 vFSM_tb
 R1
-!s110 1695687602
+R2
 !i10b 1
 !s100 :8S6TNVXLeJ1mRB8X>OJb1
 R3
-IFRD[>5YZZ`8fYUiCKUOYI0
+I5WgzPi9NXSClfV>ATDLWb2
 R4
 S1
 R0
 w1695687538
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv
 !i122 5
 L0 1 109
 R5
 r1
 !s85 0
 31
-!s108 1695687602.000000
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv|
+R6
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv|
 !i113 1
 R7
 R8
@@ -91,26 +91,26 @@ R9
 n@f@s@m_tb
 vMux
 R1
-R2
+R10
 !i10b 1
 !s100 hIzkminXE0eCk=E_NICOj3
 R3
-IRzNbkflV<mi=Rafzc7<Z?1
+IdRT`>LA:IFJfO?a6Uo35^2
 R4
 S1
 R0
 w1695686334
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv
 !i122 1
 L0 1 17
 R5
 r1
 !s85 0
 31
-R6
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv|
+R11
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv|
 !i113 1
 R7
 R8
@@ -118,26 +118,26 @@ R9
 n@mux
 vRegistro_ciclos
 R1
-R2
+R10
 !i10b 1
 !s100 ZG:ilLmj54lO_kb5XJ;<@1
 R3
-I3f9>E;T4CWgMPa3if`k8M0
+IXAbh`;oB[jGdFhQGTEOS42
 R4
 S1
 R0
 w1695685223
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv
 !i122 2
 L0 1 18
 R5
 r1
 !s85 0
 31
-R6
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv|
+R11
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv|
 !i113 1
 R7
 R8
@@ -149,13 +149,13 @@ R2
 !i10b 1
 !s100 7V0fMK;m:6WY8FWIINIYY0
 R3
-IUCaRCH=XFXf`_TBdI6Dld0
+IN`^43a;j1Ij7dLM7LRk6^0
 R4
 S1
 R0
 w1695684882
-8D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv
-FD:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv
+8D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv
+FD:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv
 !i122 3
 L0 1 19
 R5
@@ -163,8 +163,8 @@ r1
 !s85 0
 31
 R6
-!s107 D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv|
+!s107 D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales|D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv|
 !i113 1
 R7
 R8

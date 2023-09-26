@@ -1,5 +1,5 @@
 Analysis & Elaboration report for TareaFSM
-Mon Sep 25 18:19:17 2023
+Mon Sep 25 18:27:04 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Sep 25 18:19:17 2023          ;
+; Analysis & Elaboration Status ; Successful - Mon Sep 25 18:27:04 2023          ;
 ; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                 ; TareaFSM                                       ;
 ; Top-level Entity Name         ; FSM                                            ;
@@ -174,37 +174,37 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Mon Sep 25 18:19:06 2023
+    Info: Processing started: Mon Sep 25 18:26:53 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TareaFSM -c TareaFSM --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file fsm.sv
-    Info (12023): Found entity 1: FSM File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 1
-Warning (12090): Entity "Mux" obtained from "Mux.sv" instead of from Quartus Prime megafunction library File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv Line: 1
+    Info (12023): Found entity 1: FSM File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 1
+Warning (12090): Entity "Mux" obtained from "Mux.sv" instead of from Quartus Prime megafunction library File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux.sv
-    Info (12023): Found entity 1: Mux File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv Line: 1
+    Info (12023): Found entity 1: Mux File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file registro_ciclos.sv
-    Info (12023): Found entity 1: Registro_ciclos File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv Line: 1
+    Info (12023): Found entity 1: Registro_ciclos File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file registro_mante.sv
-    Info (12023): Found entity 1: Registro_mante File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv Line: 1
+    Info (12023): Found entity 1: Registro_mante File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file registro_msj.sv
-    Info (12023): Found entity 1: Registro_msj File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_msj.sv Line: 1
+    Info (12023): Found entity 1: Registro_msj File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_msj.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fsm_tb.sv
-    Info (12023): Found entity 1: FSM_tb File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv Line: 1
+    Info (12023): Found entity 1: FSM_tb File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file comparador.sv
-    Info (12023): Found entity 1: comparador File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv Line: 1
+    Info (12023): Found entity 1: comparador File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv Line: 1
 Info (12127): Elaborating entity "FSM" for the top level hierarchy
-Info (12128): Elaborating entity "Registro_ciclos" for hierarchy "Registro_ciclos:ciclos_inst" File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 20
-Warning (10230): Verilog HDL assignment warning at Registro_ciclos.sv(12): truncated value with size 32 to match size of target (8) File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv Line: 12
-Info (12128): Elaborating entity "Registro_mante" for hierarchy "Registro_mante:mante_inst" File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 28
-Warning (10230): Verilog HDL assignment warning at Registro_mante.sv(13): truncated value with size 32 to match size of target (8) File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv Line: 13
-Info (12128): Elaborating entity "comparador" for hierarchy "comparador:inst_comparador" File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 43
-Info (12128): Elaborating entity "Mux" for hierarchy "Mux:mux_inst" File: D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 49
+Info (12128): Elaborating entity "Registro_ciclos" for hierarchy "Registro_ciclos:ciclos_inst" File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at Registro_ciclos.sv(12): truncated value with size 32 to match size of target (8) File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv Line: 12
+Info (12128): Elaborating entity "Registro_mante" for hierarchy "Registro_mante:mante_inst" File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at Registro_mante.sv(13): truncated value with size 32 to match size of target (8) File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv Line: 13
+Info (12128): Elaborating entity "comparador" for hierarchy "comparador:inst_comparador" File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 43
+Info (12128): Elaborating entity "Mux" for hierarchy "Mux:mux_inst" File: D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv Line: 49
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4774 megabytes
-    Info: Processing ended: Mon Sep 25 18:19:17 2023
+    Info: Peak virtual memory: 4777 megabytes
+    Info: Processing ended: Mon Sep 25 18:27:04 2023
     Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Total CPU time (on all processors): 00:00:31
 
 

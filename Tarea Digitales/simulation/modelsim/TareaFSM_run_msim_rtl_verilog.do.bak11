@@ -45,13 +45,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM.sv}
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Mux.sv}
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv}
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv}
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/comparador.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Mux.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_ciclos.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/Registro_mante.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/comparador.sv}
 
-vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv}
+vlog -sv -work work +incdir+D:/Quartus_Taller/TareaFSM/Tarea\ en\ git/Tarea_FSM_Taller/Tarea\ Digitales {D:/Quartus_Taller/TareaFSM/Tarea en git/Tarea_FSM_Taller/Tarea Digitales/FSM_tb.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  FSM_tb
 

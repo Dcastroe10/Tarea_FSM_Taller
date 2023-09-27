@@ -13,87 +13,25 @@ module FSM_tb;
     .rst(rst),
     .msj_f(msj_f)
   );
+  
+ //Descomentar esta parte para utilizar el clk automático 
 /*
   always begin
     #100 clk = ~clk;
   end
  */
-  // Inicialización
+
   initial begin
-    // Inicializar señales
-    M = 0;
-    clk = 0;
-    rst = 1;
-    #10;
-	 rst = 0;	 
-    #10;
-	 
-	 
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
+    // Inicializar señales, en cada M=1, se pone el clk en 1, luego M y clk pasan a low
 	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
-	
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
-	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
-	
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
-	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
-	
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
-	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
-	
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
-	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
-	
-	M = 1;
-	#20;
-	clk = 1;
-	#100;
-	M = 0;
-	#20;
-	clk=0;
-	#100;
-	
+	clk = 0;
 	rst = 1;
-    #10;
-	 rst = 0;	 
-    #10;
-	 
-	 	M = 1;
+	#10;
+	rst = 0;	 
+	#10;
+
+
+	M = 1;
 	#20;
 	clk = 1;
 	#100;
@@ -101,7 +39,72 @@ module FSM_tb;
 	#20;
 	clk=0;
 	#100;
-	
+
+
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
+
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
+
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
+
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
+
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
+	//Reset completo
+	rst = 1;
+	#100;
+	rst = 0;	 
+	#100;
+	 
+	M = 1;
+	#20;
+	clk = 1;
+	#100;
+	M = 0;
+	#20;
+	clk=0;
+	#100;
+
 
  
   end
